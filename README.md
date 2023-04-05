@@ -96,8 +96,8 @@ In general, using WordPress this way helps in collaborating because any team mem
 If you want to ensure that only team members can access your website, you can use additional plugins, such as  [Restrict User Access](https://wordpress.org/plugins/restrict-user-access/). 
 
 ## Translation
-The plugin is translation-ready and currently provided in English and German.
-Feel free to contribute. The pot-file for translations is located in the languages folder.
+The plugin is translation-ready and currently provided in English, German, and Japanese.
+Feel free to contribute. The pot-file for translations is located in the [languages](/languages) folder.
 
 ## Copyright
 Copyright &copy; 2023, [Björn-Ole Kamm](https://www.b-ok.de)
