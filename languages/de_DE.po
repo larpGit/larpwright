@@ -325,7 +325,7 @@ msgid "All Scenes"
 msgstr "Alle Szenen"
 
 #: larpwright.php:290
-msgid "View Scenes"
+msgid "View Scene"
 msgstr "Szene ansehen"
 
 #: larpwright.php:291
