@@ -7,7 +7,7 @@
  * Author URI: https://www.b-ok.de/
  * License: GPLv3 or later
  * License URI: https://www.gnu.org/licenses/gpl-3.0.html
- * Version: 1.0
+ * Version: 1.0.1
  * Text Domain: larpwright
  * Domain Path: /languages
  */
