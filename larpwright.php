@@ -287,7 +287,7 @@ function scene_post_type() {
         'menu_name'           => __( 'Scenes', 'larpwright' ),
         'parent_item_colon'   => __( 'Parent Scene', 'larpwright' ),
         'all_items'           => __( 'All Scenes', 'larpwright' ),
-        'view_item'           => __( 'View Scenes', 'larpwright' ),
+        'view_item'           => __( 'View Scene', 'larpwright' ),
         'add_new_item'        => __( 'Add New Scene', 'larpwright' ),
         'add_new'             => __( 'Add New', 'larpwright' ),
         'edit_item'           => __( 'Edit Scene', 'larpwright' ),
