@@ -21,7 +21,7 @@ The focus is on collaboration allowing a team to jointly write characters and pl
 Please see the demo on [Larpwright Online](https://www.larpwright.online).
 
 ## Installation
-1. Clone this GitHub repository locally or download a zip of the [latest release](/releases/latest).
+1. Clone this GitHub repository locally or download a zip of the [latest release](https://github.com/larpGit/larpwright/releases/latest).
 2. In your WordPress admin dashboard, go to the 'Plugins > Add New' menu and choose 'Upload Plugin.' Choose the downloaded zip file.
 3. Follow the onscreen instructions to install and activate the plugin.
 4. Once activated, you will see an admin notice about required plugins (see screenshot). Follow the instructions below.
