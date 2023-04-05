@@ -1,0 +1,724 @@
+# POT for Plugin - Larpwright Design Tools (latest release) 
+# This file is distributed under the same license as the Plugin - Larpwright Design Tools (latest release) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugin - Larpwright Design Tools (latest release)\n"
+"POT-Creation-Date: 2023-03-31 15:39+0900\n"
+"PO-Revision-Date: 2023-03-31 15:40+0900\n"
+"Last-Translator: Björn-Ole Kamm <translateœb-ok.de>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: larpwright.php:32
+msgctxt "post type general name"
+msgid "Characters"
+msgstr ""
+
+#: larpwright.php:33
+msgctxt "post type singular name"
+msgid "Character"
+msgstr ""
+
+#: larpwright.php:34
+msgid "Characters"
+msgstr ""
+
+#: larpwright.php:35
+msgid "Parent Character"
+msgstr ""
+
+#: larpwright.php:36
+msgid "All Characters"
+msgstr ""
+
+#: larpwright.php:37
+msgid "View Character"
+msgstr ""
+
+#: larpwright.php:38
+msgid "Add New Character"
+msgstr ""
+
+#: larpwright.php:39 larpwright.php:292 larpwright.php:445 larpwright.php:579
+msgid "Add New"
+msgstr ""
+
+#: larpwright.php:40
+msgid "Edit Character"
+msgstr ""
+
+#: larpwright.php:41
+msgid "Update Character"
+msgstr ""
+
+#: larpwright.php:42
+msgid "Search Character"
+msgstr ""
+
+#: larpwright.php:43 larpwright.php:296 larpwright.php:449 larpwright.php:583
+msgid "Not Found"
+msgstr ""
+
+#: larpwright.php:44 larpwright.php:297 larpwright.php:450 larpwright.php:584
+msgid "Not found in Trash"
+msgstr ""
+
+#: larpwright.php:49
+msgid "character"
+msgstr ""
+
+#: larpwright.php:50
+msgid "Character descriptions"
+msgstr ""
+
+#: larpwright.php:103
+msgctxt "taxonomy general name"
+msgid "Character Types"
+msgstr ""
+
+#: larpwright.php:104
+msgctxt "taxonomy singular name"
+msgid "Character Type"
+msgstr ""
+
+#: larpwright.php:105
+msgid "Search Character Types"
+msgstr ""
+
+#: larpwright.php:106
+msgid "All Character Types"
+msgstr ""
+
+#: larpwright.php:107
+msgid "Parent Character Type"
+msgstr ""
+
+#: larpwright.php:108
+msgid "Parent Character Type:"
+msgstr ""
+
+#: larpwright.php:109
+msgid "Edit Character Type"
+msgstr ""
+
+#: larpwright.php:110
+msgid "Update Character Type"
+msgstr ""
+
+#: larpwright.php:111
+msgid "Add New Character Type"
+msgstr ""
+
+#: larpwright.php:112
+msgid "New Character Type"
+msgstr ""
+
+#: larpwright.php:113
+msgid "Character Types"
+msgstr ""
+
+#: larpwright.php:138
+msgctxt "taxonomy general name"
+msgid "Species"
+msgstr ""
+
+#: larpwright.php:139
+msgctxt "taxonomy singular name"
+msgid "Species"
+msgstr ""
+
+#: larpwright.php:140
+msgid "Search Species"
+msgstr ""
+
+#: larpwright.php:141
+msgid "All Species"
+msgstr ""
+
+#: larpwright.php:142
+msgid "Parent Species"
+msgstr ""
+
+#: larpwright.php:143
+msgid "Parent Species:"
+msgstr ""
+
+#: larpwright.php:144
+msgid "Edit Species"
+msgstr ""
+
+#: larpwright.php:145
+msgid "Update Species"
+msgstr ""
+
+#: larpwright.php:146
+msgid "Add New Species"
+msgstr ""
+
+#: larpwright.php:147
+msgid "New Species"
+msgstr ""
+
+#: larpwright.php:148
+msgid "Species"
+msgstr ""
+
+#: larpwright.php:174
+msgctxt "taxonomy general name"
+msgid "Professions"
+msgstr ""
+
+#: larpwright.php:175
+msgctxt "taxonomy singular name"
+msgid "Profession"
+msgstr ""
+
+#: larpwright.php:176
+msgid "Search Professions"
+msgstr ""
+
+#: larpwright.php:177
+msgid "All Professions"
+msgstr ""
+
+#: larpwright.php:178
+msgid "Parent Profession"
+msgstr ""
+
+#: larpwright.php:179
+msgid "Parent Profession:"
+msgstr ""
+
+#: larpwright.php:180
+msgid "Edit Profession"
+msgstr ""
+
+#: larpwright.php:181
+msgid "Update Profession"
+msgstr ""
+
+#: larpwright.php:182
+msgid "Add New Profession"
+msgstr ""
+
+#: larpwright.php:183
+msgid "New Profession"
+msgstr ""
+
+#: larpwright.php:184
+msgid "Professions"
+msgstr ""
+
+#: larpwright.php:209
+msgctxt "taxonomy general name"
+msgid "In-Game Groups"
+msgstr ""
+
+#: larpwright.php:210
+msgctxt "taxonomy singular name"
+msgid "In-Game Group"
+msgstr ""
+
+#: larpwright.php:211
+msgid "Search Groups"
+msgstr ""
+
+#: larpwright.php:212
+msgid "All In-Game Groups"
+msgstr ""
+
+#: larpwright.php:213
+msgid "Parent Group"
+msgstr ""
+
+#: larpwright.php:214
+msgid "Parent Group:"
+msgstr ""
+
+#: larpwright.php:215
+msgid "Edit Group"
+msgstr ""
+
+#: larpwright.php:216
+msgid "Update Group"
+msgstr ""
+
+#: larpwright.php:217
+msgid "Add New Group"
+msgstr ""
+
+#: larpwright.php:218
+msgid "New Group Name"
+msgstr ""
+
+#: larpwright.php:219
+msgid "In-Game Groups"
+msgstr ""
+
+#: larpwright.php:246
+msgctxt "taxonomy general name"
+msgid "Attitudes"
+msgstr ""
+
+#: larpwright.php:247
+msgctxt "taxonomy singular name"
+msgid "Attitude"
+msgstr ""
+
+#: larpwright.php:248
+msgid "Search Attitudes"
+msgstr ""
+
+#: larpwright.php:249
+msgid "Popular Attitudes"
+msgstr ""
+
+#: larpwright.php:250
+msgid "All Attitudes"
+msgstr ""
+
+#: larpwright.php:253
+msgid "Edit Attitude"
+msgstr ""
+
+#: larpwright.php:254
+msgid "Update Attitude"
+msgstr ""
+
+#: larpwright.php:255
+msgid "Add New Attitude"
+msgstr ""
+
+#: larpwright.php:256
+msgid "New Attitude"
+msgstr ""
+
+#: larpwright.php:257
+msgid "Attitudes"
+msgstr ""
+
+#: larpwright.php:285
+msgctxt "post type general name"
+msgid "Scenes"
+msgstr ""
+
+#: larpwright.php:286
+msgctxt "post type singular name"
+msgid "Scene"
+msgstr ""
+
+#: larpwright.php:287
+msgid "Scenes"
+msgstr ""
+
+#: larpwright.php:288
+msgid "Parent Scene"
+msgstr ""
+
+#: larpwright.php:289
+msgid "All Scenes"
+msgstr ""
+
+#: larpwright.php:290
+msgid "View Scenes"
+msgstr ""
+
+#: larpwright.php:291
+msgid "Add New Scene"
+msgstr ""
+
+#: larpwright.php:293
+msgid "Edit Scene"
+msgstr ""
+
+#: larpwright.php:294
+msgid "Update Scene"
+msgstr ""
+
+#: larpwright.php:295
+msgid "Search Scene"
+msgstr ""
+
+#: larpwright.php:302
+msgid "scene"
+msgstr ""
+
+#: larpwright.php:303
+msgid "Scene descriptions"
+msgstr ""
+
+#: larpwright.php:338
+msgid "Next scene"
+msgstr ""
+
+#: larpwright.php:347
+msgid "Previous scene"
+msgstr ""
+
+#: larpwright.php:363
+msgctxt "taxonomy general name"
+msgid "Episodes"
+msgstr ""
+
+#: larpwright.php:364
+msgctxt "taxonomy singular name"
+msgid "Episode"
+msgstr ""
+
+#: larpwright.php:365
+msgid "Search Episodes"
+msgstr ""
+
+#: larpwright.php:366
+msgid "All Episodes"
+msgstr ""
+
+#: larpwright.php:367
+msgid "Parent Episode"
+msgstr ""
+
+#: larpwright.php:368
+msgid "Parent Episode:"
+msgstr ""
+
+#: larpwright.php:369
+msgid "Edit Episode"
+msgstr ""
+
+#: larpwright.php:370
+msgid "Update Episode"
+msgstr ""
+
+#: larpwright.php:371
+msgid "Add New Episode"
+msgstr ""
+
+#: larpwright.php:372
+msgid "New Episode"
+msgstr ""
+
+#: larpwright.php:373
+msgid "Episodes"
+msgstr ""
+
+#: larpwright.php:399
+msgctxt "taxonomy general name"
+msgid "Moods"
+msgstr ""
+
+#: larpwright.php:400
+msgctxt "taxonomy singular name"
+msgid "Mood"
+msgstr ""
+
+#: larpwright.php:401
+msgid "Search Moods"
+msgstr ""
+
+#: larpwright.php:402
+msgid "Popular Moods"
+msgstr ""
+
+#: larpwright.php:403
+msgid "All Moods"
+msgstr ""
+
+#: larpwright.php:406
+msgid "Edit Mood"
+msgstr ""
+
+#: larpwright.php:407
+msgid "Update Mood"
+msgstr ""
+
+#: larpwright.php:408
+msgid "Add New Mood"
+msgstr ""
+
+#: larpwright.php:409
+msgid "New Mood"
+msgstr ""
+
+#: larpwright.php:410
+msgid "Moods"
+msgstr ""
+
+#: larpwright.php:438
+msgctxt "post type general name"
+msgid "Locations"
+msgstr ""
+
+#: larpwright.php:439
+msgctxt "post type singular name"
+msgid "Location"
+msgstr ""
+
+#: larpwright.php:440
+msgid "Locations"
+msgstr ""
+
+#: larpwright.php:441
+msgid "Parent Location"
+msgstr ""
+
+#: larpwright.php:442
+msgid "All Locations"
+msgstr ""
+
+#: larpwright.php:443
+msgid "View Location"
+msgstr ""
+
+#: larpwright.php:444
+msgid "Add New Location"
+msgstr ""
+
+#: larpwright.php:446
+msgid "Edit Location"
+msgstr ""
+
+#: larpwright.php:447
+msgid "Update Location"
+msgstr ""
+
+#: larpwright.php:448
+msgid "Search Location"
+msgstr ""
+
+#: larpwright.php:456
+msgid "location"
+msgstr ""
+
+#: larpwright.php:457
+msgid "Location descriptions"
+msgstr ""
+
+#: larpwright.php:497
+msgctxt "taxonomy general name"
+msgid "Size"
+msgstr ""
+
+#: larpwright.php:498
+msgctxt "taxonomy singular name"
+msgid "Size"
+msgstr ""
+
+#: larpwright.php:499
+msgid "Search Sizes"
+msgstr ""
+
+#: larpwright.php:500
+msgid "All Sizes"
+msgstr ""
+
+#: larpwright.php:501
+msgid "Parent Size"
+msgstr ""
+
+#: larpwright.php:502
+msgid "Parent Size:"
+msgstr ""
+
+#: larpwright.php:503
+msgid "Edit Size"
+msgstr ""
+
+#: larpwright.php:504
+msgid "Update Size"
+msgstr ""
+
+#: larpwright.php:505
+msgid "Add New Size"
+msgstr ""
+
+#: larpwright.php:506
+msgid "New Size"
+msgstr ""
+
+#: larpwright.php:507
+msgid "Sizes"
+msgstr ""
+
+#: larpwright.php:533
+msgctxt "taxonomy general name"
+msgid "Features"
+msgstr ""
+
+#: larpwright.php:534
+msgctxt "taxonomy singular name"
+msgid "Feature"
+msgstr ""
+
+#: larpwright.php:535
+msgid "Search Features"
+msgstr ""
+
+#: larpwright.php:536
+msgid "Popular Features"
+msgstr ""
+
+#: larpwright.php:537
+msgid "All Features"
+msgstr ""
+
+#: larpwright.php:540
+msgid "Edit Feature"
+msgstr ""
+
+#: larpwright.php:541
+msgid "Update Feature"
+msgstr ""
+
+#: larpwright.php:542
+msgid "Add New Feature"
+msgstr ""
+
+#: larpwright.php:543
+msgid "New Feature"
+msgstr ""
+
+#: larpwright.php:544
+msgid "Features"
+msgstr ""
+
+#: larpwright.php:572
+msgctxt "post type general name"
+msgid "Props"
+msgstr ""
+
+#: larpwright.php:573
+msgctxt "post type singular name"
+msgid "Prop"
+msgstr ""
+
+#: larpwright.php:574
+msgid "Props"
+msgstr ""
+
+#: larpwright.php:575
+msgid "Parent Prop"
+msgstr ""
+
+#: larpwright.php:576
+msgid "All Props"
+msgstr ""
+
+#: larpwright.php:577
+msgid "View Prop"
+msgstr ""
+
+#: larpwright.php:578
+msgid "Add New Prop"
+msgstr ""
+
+#: larpwright.php:580
+msgid "Edit Prop"
+msgstr ""
+
+#: larpwright.php:581
+msgid "Update Prop"
+msgstr ""
+
+#: larpwright.php:582
+msgid "Search Prop"
+msgstr ""
+
+#: larpwright.php:590
+msgid "prop"
+msgstr ""
+
+#: larpwright.php:591
+msgid "Props descriptions"
+msgstr ""
+
+#: larpwright.php:631
+msgctxt "taxonomy general name"
+msgid "Prop Types"
+msgstr ""
+
+#: larpwright.php:632
+msgctxt "taxonomy singular name"
+msgid "Prop Type"
+msgstr ""
+
+#: larpwright.php:633
+msgid "Search Prop Types"
+msgstr ""
+
+#: larpwright.php:634
+msgid "All Prop Types"
+msgstr ""
+
+#: larpwright.php:635
+msgid "Parent Prop Type"
+msgstr ""
+
+#: larpwright.php:636
+msgid "Parent Prop Type:"
+msgstr ""
+
+#: larpwright.php:637
+msgid "Edit Prop Type"
+msgstr ""
+
+#: larpwright.php:638
+msgid "Update Prop Type"
+msgstr ""
+
+#: larpwright.php:639
+msgid "Add New Prop Type"
+msgstr ""
+
+#: larpwright.php:640
+msgid "New Prop Type"
+msgstr ""
+
+#: larpwright.php:641
+msgid "Prop Types"
+msgstr ""
+
+#: larpwright.php:667
+msgctxt "taxonomy general name"
+msgid "Traits"
+msgstr ""
+
+#: larpwright.php:668
+msgctxt "taxonomy singular name"
+msgid "Trait"
+msgstr ""
+
+#: larpwright.php:669
+msgid "Search Traits"
+msgstr ""
+
+#: larpwright.php:670
+msgid "Popular Traits"
+msgstr ""
+
+#: larpwright.php:671
+msgid "All Traits"
+msgstr ""
+
+#: larpwright.php:674
+msgid "Edit Trait"
+msgstr ""
+
+#: larpwright.php:675
+msgid "Update Trait"
+msgstr ""
+
+#: larpwright.php:676
+msgid "Add New Trait"
+msgstr ""
+
+#: larpwright.php:677
+msgid "New Trait"
+msgstr ""
+
+#: larpwright.php:678
+msgid "Traits"
+msgstr ""
