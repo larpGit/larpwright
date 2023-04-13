@@ -28,8 +28,8 @@ Please see the demo on [Larpwright Online](https://www.larpwright.online).
 5. Lastly, follow the admin notice about permalinks (see screenshot) and adjust the settings for the required plugins.
 
 **Screenshots**
-![Screenshot of admin notices after activation.](https://www.larpwright.online/assets/activation.png)
-![Screenshot of installation of required plugins.](https://www.larpwright.online/assets/required_plugins.png)
+![Screenshot of admin notices after activation.](https://www.larpwright.online/assets/activate.png)
+![Screenshot of installation of required plugins.](https://www.larpwright.online/assets/requiredplugins.png)
 
 ### Required Plugins Installation
 Click the 'Begin installing plugins' link and install all necessary plugins. Click the checkmarks and choose 'Install' as a bulk action.
