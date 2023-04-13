@@ -68,9 +68,11 @@ Except for 'attitudes,' which function like tags, all other taxonomies function 
 Using the functionality provided by the required plugin 'Custom Related Posts,' you can link characters (use the 'link' button on the top-right of the editing screen. This linking or connection does not make any statement about the kind of relationship the two characters may have. It adds the convenience of displaying who is somehow connected to whom and provides a quick way of switching to another character.
 
 ### Scenes
-If your larp is episodic and works with predefined scenes, this is the place to set them up. Like the 'character' custom post type, scenes come with custom taxonomies helping you to structure your plot.
+If your larp is episodic and works with predefined scenes, this is the place to set them up. Like the 'character' custom post type, scenes come with custom taxonomies helping you to structure your plot. 
 * **Episode**: Set up episodes or acts as larger frames for individual scenes.
 * **Mood**: Designate a mood or feeling to scenes, such as 'rising tension' or 'feel good.'
+
+The template json (see below) for Scenes includes a block to easily display a list of characters (via the bundled Display Post Types plugin).
 
 ### Locations
 If your larp works with locations (instead or in addition to scenes), you can describe each location, its uses in particular scenes or for particular characters, and what items and props need to be put there. Custom taxonomies for locations include:
@@ -109,6 +111,8 @@ The Larpwright Design Tools plugin is distributed in the hope that it will be us
 You should have received a copy of the GNU General Public License along with the Larpwright Design Tools. If not, see https://www.gnu.org/licenses/.
 
 This plugin includes the [TGM-Plugin-Activation](https://github.com/TGMPA/TGM-Plugin-Activation) library for installing necessary additional plugins. Copyright &copy; 2011 Thomas Griffin (https://thomasgriffinmedia.com).
+
+The plugin bundlles the [Display Post Types](https://wordpress.org/plugins/display-post-types/) plugin in a WordPress 6.2+ compatible version. Copyright &copy; 2022 vedathemes (https://profiles.wordpress.org/vedathemes/).
 
 ## Acknowledgements
 The plugin development is part of the research project [Transcultural Learning through Simulated Co-Presence: How to Realize Other Cultures and Life-Worlds](https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-19KT0028/), funded by the [Japan Society for the Promotion of Science](https://www.jsps.go.jp/english/) (JSPS).
