@@ -7,11 +7,11 @@
  * Author URI: https://www.b-ok.de/
  * License: GPLv3 or later
  * License URI: https://www.gnu.org/licenses/gpl-3.0.html
- * Version: 1.0.3
+ * Version: 1.0.5
  * Text Domain: larpwright
  * Domain Path: /languages
+ * GitHub Plugin URI: https://github.com/larpGit/larpwright
  */
-
 /*
 Copyright 2023, Björn-Ole Kamm
 The Larpwright Design Tools plugin is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
@@ -934,3 +934,11 @@ function enable_comments_on_all_post_types($post_content, $post) {
 }
 add_filter('default_content', 'enable_comments_on_all_post_types', 10, 2);
 
+//========================= Load the Print CSS ===========================//
+// The print css file ensures that print outs of the custom post types look good.
+
+function larpwright_enqueue_print_styles() {
+    wp_enqueue_style('larpwright-print-styles', plugin_dir_url(__FILE__) . 'css/print.css', array(), '1.0.0', 'print');
+}
+
+add_action('wp_enqueue_scripts', 'larpwright_enqueue_print_styles');
