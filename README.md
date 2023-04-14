@@ -88,7 +88,7 @@ Props range from costumes to furniture or (boffer) weapons. They come with the f
 For all custom post types, you find a template among the reusable blocks. These are just suggestions for how you can use the plugin. Feel free to create your own templates fitting your larp.
 
 ### Handouts
-The plugin provide print CSS settings so that you can just print the finished characters, scenes, locations, and props to be handed to players and game masters/assisting staff.
+The plugin provides print CSS settings so that you can just print the finished characters, scenes, locations, and props to be handed to players and game masters/assisting staff.
 
 ## Further Larp Settings
 There are, of course, other aspects of a larp necessitating design, such as the overall world setting and game mechanics like rules or meta techniques. For this purpose, we suggest using the standard pages coming with WordPress. See the demo on [www.larpwright.online](https://www.larpwright.online) for suggestions.
