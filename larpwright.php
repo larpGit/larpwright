@@ -7,7 +7,7 @@
  * Author URI: https://www.b-ok.de/
  * License: GPLv3 or later
  * License URI: https://www.gnu.org/licenses/gpl-3.0.html
- * Version: 1.0.1
+ * Version: 1.0.3
  * Text Domain: larpwright
  * Domain Path: /languages
  */
@@ -753,6 +753,12 @@ function larpwright_register_required_plugins() {
             'required'  => true,
         ),
         array(
+            'name'      => 'Display Post Types',
+            'slug'      => 'display-post-types',
+            'source'    => plugin_dir_url(__FILE__) . 'assets/display-post-types.zip',
+            'required'  => true,
+        ),
+        array(
             'name'      => 'RDV Category Image',
             'slug'      => 'rdv-category-image',
             'required'  => true,
@@ -788,7 +794,7 @@ add_action('tgmpa_register', 'larpwright_register_required_plugins');
 // This imports reusable blocks for layouting the character, scene, and location pages.
 
 function import_reusable_blocks() {
-    $reusable_blocks_folder = trailingslashit(plugin_dir_path(__FILE__)) . 'templates/';
+    $reusable_blocks_folder = trailingslashit(plugin_dir_path(__FILE__)) . 'assets/';
 
     if (!file_exists($reusable_blocks_folder)) {
         return;
