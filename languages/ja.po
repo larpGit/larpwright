@@ -1,10 +1,10 @@
-# PO for Plugin - Larpwright Design Tools (latest release) 
+# Translation for Plugin - Larpwright Design Tools (latest release) in Japanese
 # This file is distributed under the same license as the Plugin - Larpwright Design Tools (latest release) package.
 msgid ""
 msgstr ""
 "Project-Id-Version: Plugin - Larpwright Design Tools (latest release)\n"
 "POT-Creation-Date: 2023-03-31 15:39+0900\n"
-"PO-Revision-Date: 2023-04-05 18:54+0900\n"
+"PO-Revision-Date: 2023-04-18 08:42+0900\n"
 "Last-Translator: Björn-Ole Kamm <translateœb-ok.de>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -14,712 +14,716 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 3.2.2\n"
 
-#: larpwright.php:32
+#. Description of the plugin
+msgid "The plugin provides several custom post types and further functionality for creating larp scripts in a team."
+msgstr "このプラグインは、いくつかのカスタム投稿タイプや、チームでLARPスクリプトを作成するためのさらなる機能を提供します。"
+
+#: larpwright.php:58
 msgctxt "post type general name"
 msgid "Characters"
 msgstr "キャラクター"
 
-#: larpwright.php:33
+#: larpwright.php:59
 msgctxt "post type singular name"
 msgid "Character"
 msgstr "キャラクター"
 
-#: larpwright.php:34
+#: larpwright.php:60
 msgid "Characters"
 msgstr "キャラクター"
 
-#: larpwright.php:35
+#: larpwright.php:61
 msgid "Parent Character"
 msgstr "上位キャラクター"
 
-#: larpwright.php:36
+#: larpwright.php:62
 msgid "All Characters"
 msgstr "キャラクター一覧"
 
-#: larpwright.php:37
+#: larpwright.php:63
 msgid "View Character"
 msgstr "キャラクターを表示"
 
-#: larpwright.php:38
+#: larpwright.php:64
 msgid "Add New Character"
 msgstr "新しいキャラクターを追加"
 
-#: larpwright.php:39 larpwright.php:292 larpwright.php:445 larpwright.php:579
+#: larpwright.php:65 larpwright.php:318 larpwright.php:471 larpwright.php:605
 msgid "Add New"
 msgstr "新規追加"
 
-#: larpwright.php:40
+#: larpwright.php:66
 msgid "Edit Character"
 msgstr "キャラクターを編集"
 
-#: larpwright.php:41
+#: larpwright.php:67
 msgid "Update Character"
 msgstr "キャラクターを更新"
 
-#: larpwright.php:42
+#: larpwright.php:68
 msgid "Search Character"
 msgstr "キャラクターを検索"
 
-#: larpwright.php:43 larpwright.php:296 larpwright.php:449 larpwright.php:583
+#: larpwright.php:69 larpwright.php:322 larpwright.php:475 larpwright.php:609
 msgid "Not Found"
 msgstr "見つかりませんでした"
 
-#: larpwright.php:44 larpwright.php:297 larpwright.php:450 larpwright.php:584
+#: larpwright.php:70 larpwright.php:323 larpwright.php:476 larpwright.php:610
 msgid "Not found in Trash"
 msgstr "ゴミ箱に見つかりません"
 
-#: larpwright.php:49
+#: larpwright.php:75
 msgid "character"
 msgstr "character"
 
-#: larpwright.php:50
+#: larpwright.php:76
 msgid "Character descriptions"
 msgstr "キャラクターの説明"
 
-#: larpwright.php:103
+#: larpwright.php:129
 msgctxt "taxonomy general name"
 msgid "Character Types"
 msgstr "キャラクタータイプ"
 
-#: larpwright.php:104
+#: larpwright.php:130
 msgctxt "taxonomy singular name"
 msgid "Character Type"
 msgstr "キャラクタータイプ"
 
-#: larpwright.php:105
+#: larpwright.php:131
 msgid "Search Character Types"
 msgstr "キャラクタータイプを検索"
 
-#: larpwright.php:106
+#: larpwright.php:132
 msgid "All Character Types"
 msgstr "キャラクタータイプ一覧"
 
-#: larpwright.php:107
+#: larpwright.php:133
 msgid "Parent Character Type"
 msgstr "上位キャラクタータイプ"
 
-#: larpwright.php:108
+#: larpwright.php:134
 msgid "Parent Character Type:"
 msgstr "上位キャラクタータイプ:"
 
-#: larpwright.php:109
+#: larpwright.php:135
 msgid "Edit Character Type"
 msgstr "キャラクタータイプを編集"
 
-#: larpwright.php:110
+#: larpwright.php:136
 msgid "Update Character Type"
 msgstr "キャラクタータイプを更新"
 
-#: larpwright.php:111
+#: larpwright.php:137
 msgid "Add New Character Type"
 msgstr "新しいキャラクタータイプを追加"
 
-#: larpwright.php:112
+#: larpwright.php:138
 msgid "New Character Type"
 msgstr "新しいキャラクタータイプ"
 
-#: larpwright.php:113
+#: larpwright.php:139
 msgid "Character Types"
 msgstr "キャラクタータイプ"
 
-#: larpwright.php:138
+#: larpwright.php:164
 msgctxt "taxonomy general name"
 msgid "Species"
 msgstr "種"
 
-#: larpwright.php:139
+#: larpwright.php:165
 msgctxt "taxonomy singular name"
 msgid "Species"
 msgstr "種"
 
-#: larpwright.php:140
+#: larpwright.php:166
 msgid "Search Species"
 msgstr "種を検索"
 
-#: larpwright.php:141
+#: larpwright.php:167
 msgid "All Species"
 msgstr "種一覧"
 
-#: larpwright.php:142
+#: larpwright.php:168
 msgid "Parent Species"
 msgstr "上位種"
 
-#: larpwright.php:143
+#: larpwright.php:169
 msgid "Parent Species:"
 msgstr "上位種:"
 
-#: larpwright.php:144
+#: larpwright.php:170
 msgid "Edit Species"
 msgstr "種を編集"
 
-#: larpwright.php:145
+#: larpwright.php:171
 msgid "Update Species"
 msgstr "種を更新"
 
-#: larpwright.php:146
+#: larpwright.php:172
 msgid "Add New Species"
 msgstr "新しい種を追加する"
 
-#: larpwright.php:147
+#: larpwright.php:173
 msgid "New Species"
 msgstr "新しい種"
 
-#: larpwright.php:148
+#: larpwright.php:174
 msgid "Species"
 msgstr "種"
 
-#: larpwright.php:174
+#: larpwright.php:200
 msgctxt "taxonomy general name"
 msgid "Professions"
 msgstr "専門"
 
-#: larpwright.php:175
+#: larpwright.php:201
 msgctxt "taxonomy singular name"
 msgid "Profession"
 msgstr "専門"
 
-#: larpwright.php:176
+#: larpwright.php:202
 msgid "Search Professions"
 msgstr "専門を検索"
 
-#: larpwright.php:177
+#: larpwright.php:203
 msgid "All Professions"
 msgstr "専門一覧"
 
-#: larpwright.php:178
+#: larpwright.php:204
 msgid "Parent Profession"
 msgstr "上位専門"
 
-#: larpwright.php:179
+#: larpwright.php:205
 msgid "Parent Profession:"
 msgstr "上位専門:"
 
-#: larpwright.php:180
+#: larpwright.php:206
 msgid "Edit Profession"
 msgstr "専門を編集"
 
-#: larpwright.php:181
+#: larpwright.php:207
 msgid "Update Profession"
 msgstr "専門を更新"
 
-#: larpwright.php:182
+#: larpwright.php:208
 msgid "Add New Profession"
 msgstr "新しい専門を追加する"
 
-#: larpwright.php:183
+#: larpwright.php:209
 msgid "New Profession"
 msgstr "新しい専門"
 
-#: larpwright.php:184
+#: larpwright.php:210
 msgid "Professions"
 msgstr "専門"
 
-#: larpwright.php:209
+#: larpwright.php:235
 msgctxt "taxonomy general name"
 msgid "In-Game Groups"
 msgstr "グループ"
 
-#: larpwright.php:210
+#: larpwright.php:236
 msgctxt "taxonomy singular name"
 msgid "In-Game Group"
 msgstr "グループ"
 
-#: larpwright.php:211
+#: larpwright.php:237
 msgid "Search Groups"
 msgstr "グループを検索"
 
-#: larpwright.php:212
+#: larpwright.php:238
 msgid "All In-Game Groups"
 msgstr "グループ一覧"
 
-#: larpwright.php:213
+#: larpwright.php:239
 msgid "Parent Group"
 msgstr "上位グループ"
 
-#: larpwright.php:214
+#: larpwright.php:240
 msgid "Parent Group:"
 msgstr "上位グループ："
 
-#: larpwright.php:215
+#: larpwright.php:241
 msgid "Edit Group"
 msgstr "グループを編集"
 
-#: larpwright.php:216
+#: larpwright.php:242
 msgid "Update Group"
 msgstr "グループを更新"
 
-#: larpwright.php:217
+#: larpwright.php:243
 msgid "Add New Group"
 msgstr "新しいグループを追加"
 
-#: larpwright.php:218
+#: larpwright.php:244
 msgid "New Group Name"
 msgstr "新しいグループ名"
 
-#: larpwright.php:219
+#: larpwright.php:245
 msgid "In-Game Groups"
 msgstr "グループ"
 
-#: larpwright.php:246
+#: larpwright.php:272
 msgctxt "taxonomy general name"
 msgid "Attitudes"
 msgstr "態度"
 
-#: larpwright.php:247
+#: larpwright.php:273
 msgctxt "taxonomy singular name"
 msgid "Attitude"
 msgstr "態度"
 
-#: larpwright.php:248
+#: larpwright.php:274
 msgid "Search Attitudes"
 msgstr "態度を検索"
 
-#: larpwright.php:249
+#: larpwright.php:275
 msgid "Popular Attitudes"
 msgstr "人気の態度"
 
-#: larpwright.php:250
+#: larpwright.php:276
 msgid "All Attitudes"
 msgstr "態度一覧"
 
-#: larpwright.php:253
+#: larpwright.php:279
 msgid "Edit Attitude"
 msgstr "態度を編集"
 
-#: larpwright.php:254
+#: larpwright.php:280
 msgid "Update Attitude"
 msgstr "態度を更新"
 
-#: larpwright.php:255
+#: larpwright.php:281
 msgid "Add New Attitude"
 msgstr "新しい態度を追加"
 
-#: larpwright.php:256
+#: larpwright.php:282
 msgid "New Attitude"
 msgstr "新しい態度"
 
-#: larpwright.php:257
+#: larpwright.php:283
 msgid "Attitudes"
 msgstr "態度"
 
-#: larpwright.php:285
+#: larpwright.php:311
 msgctxt "post type general name"
 msgid "Scenes"
 msgstr "シーン"
 
-#: larpwright.php:286
+#: larpwright.php:312
 msgctxt "post type singular name"
 msgid "Scene"
 msgstr "シーン"
 
-#: larpwright.php:287
+#: larpwright.php:313
 msgid "Scenes"
 msgstr "シーン"
 
-#: larpwright.php:288
+#: larpwright.php:314
 msgid "Parent Scene"
 msgstr "上位シーン"
 
-#: larpwright.php:289
+#: larpwright.php:315
 msgid "All Scenes"
 msgstr "シーン一覧"
 
-#: larpwright.php:290
+#: larpwright.php:316
 msgid "View Scene"
 msgstr "シーンを表示"
 
-#: larpwright.php:291
+#: larpwright.php:317
 msgid "Add New Scene"
 msgstr "新しいシーンを追加"
 
-#: larpwright.php:293
+#: larpwright.php:318
 msgid "Edit Scene"
 msgstr "シーンを編集"
 
-#: larpwright.php:294
+#: larpwright.php:320
 msgid "Update Scene"
 msgstr "シーンを更新"
 
-#: larpwright.php:295
+#: larpwright.php:321
 msgid "Search Scene"
 msgstr "シーンを検索"
 
-#: larpwright.php:302
+#: larpwright.php:328
 msgid "scene"
 msgstr "scene"
 
-#: larpwright.php:303
+#: larpwright.php:329
 msgid "Scene descriptions"
 msgstr "シーンの説明"
 
-#: larpwright.php:338
+#: larpwright.php:364
 msgid "Next scene"
 msgstr "次のシーン"
 
-#: larpwright.php:347
+#: larpwright.php:373
 msgid "Previous scene"
 msgstr "前のシーン"
 
-#: larpwright.php:363
+#: larpwright.php:389
 msgctxt "taxonomy general name"
 msgid "Episodes"
 msgstr "エピソード"
 
-#: larpwright.php:364
+#: larpwright.php:390
 msgctxt "taxonomy singular name"
 msgid "Episode"
 msgstr "エピソード"
 
-#: larpwright.php:365
+#: larpwright.php:391
 msgid "Search Episodes"
 msgstr "エピソードを検索"
 
-#: larpwright.php:366
+#: larpwright.php:392
 msgid "All Episodes"
 msgstr "エピソード一覧"
 
-#: larpwright.php:367
+#: larpwright.php:393
 msgid "Parent Episode"
 msgstr "上位エピソード"
 
-#: larpwright.php:368
+#: larpwright.php:394
 msgid "Parent Episode:"
 msgstr "上位エピソード:"
 
-#: larpwright.php:369
+#: larpwright.php:395
 msgid "Edit Episode"
 msgstr "エピソードを編集"
 
-#: larpwright.php:370
+#: larpwright.php:396
 msgid "Update Episode"
 msgstr "エピソードを更新"
 
-#: larpwright.php:371
+#: larpwright.php:397
 msgid "Add New Episode"
 msgstr "新しいエピソードを追加"
 
-#: larpwright.php:372
+#: larpwright.php:398
 msgid "New Episode"
 msgstr "新しいエピソード"
 
-#: larpwright.php:373
+#: larpwright.php:399
 msgid "Episodes"
 msgstr "エピソード"
 
-#: larpwright.php:399
+#: larpwright.php:425
 msgctxt "taxonomy general name"
 msgid "Moods"
 msgstr "気分"
 
-#: larpwright.php:400
+#: larpwright.php:426
 msgctxt "taxonomy singular name"
 msgid "Mood"
 msgstr "気分"
 
-#: larpwright.php:401
+#: larpwright.php:427
 msgid "Search Moods"
 msgstr "気分を検索"
 
-#: larpwright.php:402
+#: larpwright.php:428
 msgid "Popular Moods"
 msgstr "人気の気分"
 
-#: larpwright.php:403
+#: larpwright.php:429
 msgid "All Moods"
 msgstr "気分一覧"
 
-#: larpwright.php:406
+#: larpwright.php:432
 msgid "Edit Mood"
 msgstr "気分を編集"
 
-#: larpwright.php:407
+#: larpwright.php:433
 msgid "Update Mood"
 msgstr "気分を更新"
 
-#: larpwright.php:408
+#: larpwright.php:434
 msgid "Add New Mood"
 msgstr "新しい気分を追加"
 
-#: larpwright.php:409
+#: larpwright.php:435
 msgid "New Mood"
 msgstr "新しい気分"
 
-#: larpwright.php:410
+#: larpwright.php:436
 msgid "Moods"
 msgstr "気分"
 
-#: larpwright.php:438
+#: larpwright.php:464
 msgctxt "post type general name"
 msgid "Locations"
 msgstr "ロケ"
 
-#: larpwright.php:439
+#: larpwright.php:465
 msgctxt "post type singular name"
 msgid "Location"
 msgstr "ロケ"
 
-#: larpwright.php:440
+#: larpwright.php:466
 msgid "Locations"
 msgstr "ロケ"
 
-#: larpwright.php:441
+#: larpwright.php:467
 msgid "Parent Location"
 msgstr "上位ロケ"
 
-#: larpwright.php:442
+#: larpwright.php:468
 msgid "All Locations"
 msgstr "ロケ一覧"
 
-#: larpwright.php:443
+#: larpwright.php:469
 msgid "View Location"
 msgstr "ロケを表示"
 
-#: larpwright.php:444
+#: larpwright.php:470
 msgid "Add New Location"
 msgstr "新しいロケを追加"
 
-#: larpwright.php:446
+#: larpwright.php:472
 msgid "Edit Location"
 msgstr "ロケを編集"
 
-#: larpwright.php:447
+#: larpwright.php:473
 msgid "Update Location"
 msgstr "ロケを更新"
 
-#: larpwright.php:448
+#: larpwright.php:474
 msgid "Search Location"
 msgstr "ロケを検索"
 
-#: larpwright.php:456
+#: larpwright.php:482
 msgid "location"
 msgstr "location"
 
-#: larpwright.php:457
+#: larpwright.php:483
 msgid "Location descriptions"
 msgstr "ロケの説明"
 
-#: larpwright.php:497
+#: larpwright.php:523
 msgctxt "taxonomy general name"
 msgid "Size"
 msgstr "サイズ"
 
-#: larpwright.php:498
+#: larpwright.php:524
 msgctxt "taxonomy singular name"
 msgid "Size"
 msgstr "サイズ"
 
-#: larpwright.php:499
+#: larpwright.php:525
 msgid "Search Sizes"
 msgstr "サイズを検索"
 
-#: larpwright.php:500
+#: larpwright.php:526
 msgid "All Sizes"
 msgstr "サイズ一覧"
 
-#: larpwright.php:501
+#: larpwright.php:527
 msgid "Parent Size"
 msgstr "上位サイズ"
 
-#: larpwright.php:502
+#: larpwright.php:528
 msgid "Parent Size:"
 msgstr "上位サイズ:"
 
-#: larpwright.php:503
+#: larpwright.php:529
 msgid "Edit Size"
 msgstr "サイズを編集"
 
-#: larpwright.php:504
+#: larpwright.php:530
 msgid "Update Size"
 msgstr "サイズを更新"
 
-#: larpwright.php:505
+#: larpwright.php:531
 msgid "Add New Size"
 msgstr "新しいサイズの追加"
 
-#: larpwright.php:506
+#: larpwright.php:532
 msgid "New Size"
 msgstr "新しいサイズ"
 
-#: larpwright.php:507
+#: larpwright.php:533
 msgid "Sizes"
 msgstr "サイズ"
 
-#: larpwright.php:533
+#: larpwright.php:559
 msgctxt "taxonomy general name"
 msgid "Features"
 msgstr "仕様"
 
-#: larpwright.php:534
+#: larpwright.php:560
 msgctxt "taxonomy singular name"
 msgid "Feature"
 msgstr "仕様"
 
-#: larpwright.php:535
+#: larpwright.php:561
 msgid "Search Features"
 msgstr "仕様を検索"
 
-#: larpwright.php:536
+#: larpwright.php:562
 msgid "Popular Features"
 msgstr "人気の仕様"
 
-#: larpwright.php:537
+#: larpwright.php:563
 msgid "All Features"
 msgstr "仕様一覧"
 
-#: larpwright.php:540
+#: larpwright.php:566
 msgid "Edit Feature"
 msgstr "仕様を編集"
 
-#: larpwright.php:541
+#: larpwright.php:567
 msgid "Update Feature"
 msgstr "仕様を更新"
 
-#: larpwright.php:542
+#: larpwright.php:568
 msgid "Add New Feature"
 msgstr "新しい仕様を追加"
 
-#: larpwright.php:543
+#: larpwright.php:569
 msgid "New Feature"
 msgstr "新しい仕様"
 
-#: larpwright.php:544
+#: larpwright.php:570
 msgid "Features"
 msgstr "仕様"
 
-#: larpwright.php:572
+#: larpwright.php:598
 msgctxt "post type general name"
 msgid "Props"
 msgstr "支柱"
 
-#: larpwright.php:573
+#: larpwright.php:599
 msgctxt "post type singular name"
 msgid "Prop"
 msgstr "支柱"
 
-#: larpwright.php:574
+#: larpwright.php:600
 msgid "Props"
 msgstr "支柱"
 
-#: larpwright.php:575
+#: larpwright.php:601
 msgid "Parent Prop"
 msgstr "上位支柱"
 
-#: larpwright.php:576
+#: larpwright.php:602
 msgid "All Props"
 msgstr "支柱一覧"
 
-#: larpwright.php:577
+#: larpwright.php:603
 msgid "View Prop"
 msgstr "支柱を表示"
 
-#: larpwright.php:578
+#: larpwright.php:604
 msgid "Add New Prop"
 msgstr "新しい支柱を追加"
 
-#: larpwright.php:580
+#: larpwright.php:605
 msgid "Edit Prop"
 msgstr "支柱を編集"
 
-#: larpwright.php:581
+#: larpwright.php:607
 msgid "Update Prop"
 msgstr "支柱を更新"
 
-#: larpwright.php:582
+#: larpwright.php:608
 msgid "Search Prop"
 msgstr "支柱を検索"
 
-#: larpwright.php:590
+#: larpwright.php:616
 msgid "prop"
 msgstr "prop"
 
-#: larpwright.php:591
+#: larpwright.php:617
 msgid "Props descriptions"
 msgstr "支柱の説明"
 
-#: larpwright.php:631
+#: larpwright.php:657
 msgctxt "taxonomy general name"
 msgid "Prop Types"
 msgstr "支柱タイプ"
 
-#: larpwright.php:632
+#: larpwright.php:658
 msgctxt "taxonomy singular name"
 msgid "Prop Type"
 msgstr "支柱タイプ"
 
-#: larpwright.php:633
+#: larpwright.php:659
 msgid "Search Prop Types"
 msgstr "支柱タイプを検索"
 
-#: larpwright.php:634
+#: larpwright.php:660
 msgid "All Prop Types"
 msgstr "支柱タイプ一覧"
 
-#: larpwright.php:635
+#: larpwright.php:661
 msgid "Parent Prop Type"
 msgstr "上位支柱タイプ"
 
-#: larpwright.php:636
+#: larpwright.php:662
 msgid "Parent Prop Type:"
 msgstr "上位支柱タイプ:"
 
-#: larpwright.php:637
+#: larpwright.php:663
 msgid "Edit Prop Type"
 msgstr "支柱タイプを編集"
 
-#: larpwright.php:638
+#: larpwright.php:664
 msgid "Update Prop Type"
 msgstr "支柱タイプを更新"
 
-#: larpwright.php:639
+#: larpwright.php:665
 msgid "Add New Prop Type"
 msgstr "新しい支柱タイプを追加"
 
-#: larpwright.php:640
+#: larpwright.php:666
 msgid "New Prop Type"
 msgstr "新しい支柱タイプ"
 
-#: larpwright.php:641
+#: larpwright.php:667
 msgid "Prop Types"
 msgstr "支柱タイプ"
 
-#: larpwright.php:667
+#: larpwright.php:693
 msgctxt "taxonomy general name"
 msgid "Traits"
 msgstr "特性"
 
-#: larpwright.php:668
+#: larpwright.php:694
 msgctxt "taxonomy singular name"
 msgid "Trait"
 msgstr "特性"
 
-#: larpwright.php:669
+#: larpwright.php:695
 msgid "Search Traits"
 msgstr "特性を検索"
 
-#: larpwright.php:670
+#: larpwright.php:696
 msgid "Popular Traits"
 msgstr "人気の特性"
 
-#: larpwright.php:671
+#: larpwright.php:697
 msgid "All Traits"
 msgstr "特性一覧"
 
-#: larpwright.php:674
+#: larpwright.php:700
 msgid "Edit Trait"
 msgstr "特性を編集"
 
-#: larpwright.php:675
+#: larpwright.php:701
 msgid "Update Trait"
 msgstr "特性を更新"
 
-#: larpwright.php:676
+#: larpwright.php:702
 msgid "Add New Trait"
 msgstr "新しい特性の追加"
 
-#: larpwright.php:677
+#: larpwright.php:703
 msgid "New Trait"
 msgstr "新しい特性"
 
-#: larpwright.php:678
+#: larpwright.php:704
 msgid "Traits"
 msgstr "特性"

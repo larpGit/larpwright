@@ -1,11 +1,11 @@
 # Larpwright Design Tools
 
 Contributors: larpGit
-Tags: plugin, larp, design
-Requires at least: 5.0
+Tags: co-creation, collaboration, design, larp, plugin, role-playing, translation-ready, writing
+Requires at least: 5.2
 Requires PHP: 7.2
 Tested up to: 6.2
-Stable tag: main
+Stable tag: master
 License: GPLv3 or later
 
 ## Description

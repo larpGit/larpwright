@@ -1,22 +1,48 @@
 <?php
 /**
  * Plugin Name: Larpwright Design Tools
- * Plugin URI: https://github.com/larpGit/larpwright
- * Description: The plugin provides several custom post types and further functionality for creating a larp script in a team.
+ * Plugin URI: https://www.larpwright.online/
+ * Description: The plugin provides several custom post types and further functionality for creating larp scripts in a team.
+ * Version 1.0.6
  * Author: Björn-Ole Kamm
  * Author URI: https://www.b-ok.de/
  * License: GPLv3 or later
- * License URI: https://www.gnu.org/licenses/gpl-3.0.html
- * Version: 1.0.5
+ * License URI: https://www.gnu.org/licenses/gpl-3.0.html 
+ * Requires at least: 5.2
+ * Requires PHP: 7.2
+ * Tags: co-creation, collaboration, design, larp, plugin, role-playing, translation-ready, writing
  * Text Domain: larpwright
  * Domain Path: /languages
  * GitHub Plugin URI: https://github.com/larpGit/larpwright
  */
+ 
 /*
-Copyright 2023, Björn-Ole Kamm
-The Larpwright Design Tools plugin is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
-The Larpwright Design Tools plugin is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-You should have received a copy of the GNU General Public License along with the Larpwright Design Tools. If not, see https://www.gnu.org/licenses/. 
+	Copyright 2023, Björn-Ole Kamm
+
+	The statement below within this comment block is relevant to
+	this file as well as to all files in this folder and to all files
+	in all sub-folders of this folder recursively
+	(except: class-tgm-plugin-activation.php, assets/display-post-types.zip; 
+	see below).
+
+	The Larpwright Design Tools plugin is free software: you can redistribute
+	it and/or modify it under the terms of the GNU General Public License as 
+	published by the Free Software Foundation, either version 3 of the License, 
+	or (at your option) any later version.
+	
+	The Larpwright Design Tools plugin is distributed in the hope that it will 
+	be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of 
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General 
+	Public License for more details.
+	
+	You should have received a copy of the GNU General Public License along 
+	with the Larpwright Design Tools. If not, see https://www.gnu.org/licenses/. 
+	
+	This plugin includes the TGM-Plugin-Activation library for installing necessary 
+	additional plugins. Copyright 2011 Thomas Griffin (https://thomasgriffinmedia.com).
+
+	The plugin bundlles the Display Post Types plugin in a WordPress 6.2+ compatible 
+	version. Copyright 2022 vedathemes (https://profiles.wordpress.org/vedathemes/).
 */
  
 //========================= 1. REGISTER NEW POST TYPES ===========================//
