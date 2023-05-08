@@ -86,6 +86,7 @@ Props range from costumes to furniture or (boffer) weapons. They come with the f
 
 ### Templates
 For all custom post types, you find a template among the reusable blocks. These are just suggestions for how you can use the plugin. Feel free to create your own templates fitting your larp.
+The auto-loaded templates are in English. You can find German and Japanese templates in the [assets](/assets) folder. To install, go to the reusable blocks list (your-wordpress-site/wp-admin/edit.php?post_type=wp_block) and import the respective JSON.
 
 ### Handouts
 The plugin provides print CSS settings so that you can just print the finished characters, scenes, locations, and props to be handed to players and game masters/assisting staff.
