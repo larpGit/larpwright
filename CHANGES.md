@@ -1,3 +1,7 @@
+### 1.0.7
+Summary
+* Updated translations to include the permalink admin notice.
+
 ### 1.0.6
 Summary
 * Updated translations to include the plugin description.

@@ -3,7 +3,7 @@
  * Plugin Name: Larpwright Design Tools
  * Plugin URI: https://github.com/larpGit/larpwright
  * Description: The plugin provides several custom post types and further functionality for creating larp scripts in a team.
- * Version: 1.0.6
+ * Version: 1.0.7
  * Author: Björn-Ole Kamm
  * Author URI: https://www.b-ok.de/
  * License: GPLv3 or later
@@ -936,12 +936,18 @@ function larpwright_permalink_notice() {
     $recommended_permalink_structure = '/%category%/%postname%/';
     if ($wp_rewrite->permalink_structure !== $recommended_permalink_structure) {
         echo '<div class="notice notice-warning">';
-        echo '<p><strong>Larpwright Design Tools</strong> recommends changing the permalink structure to <code>' . $recommended_permalink_structure . '</code> for optimal performance. You can change this setting <a href="' . admin_url('options-permalink.php') . '">here</a>.</p>';
+        $message = sprintf(
+            __('<p><strong>Larpwright Design Tools</strong> recommends changing the permalink structure to <code>%1$s</code> for optimal performance. You can change this setting <a href="%2$s">here</a>.</p>', 'larpwright'),
+            $recommended_permalink_structure,
+            admin_url('options-permalink.php')
+        );
+        echo $message;
         echo '</div>';
     }
 }
 
 add_action('admin_notices', 'larpwright_permalink_notice');
+
 
 
 //========================= Switch Comments on for all Post Types ===========================//
