@@ -921,6 +921,18 @@ register_activation_hook(__FILE__, 'larpwright_activation');
 
 //========================= 3. MISCELLANEOUS ===========================//
 
+//========================= Load Text-Domain ===========================//
+// This will load the translation filess.
+
+function larpwright_load_my_own_textdomain( $mofile, $domain ) {
+	if ( 'larpwright' === $domain && false !== strpos( $mofile, WP_LANG_DIR . '/plugins/' ) ) {
+		$locale = apply_filters( 'plugin_locale', determine_locale(), $domain );
+		$mofile = WP_PLUGIN_DIR . '/' . dirname( plugin_basename( __FILE__ ) ) . '/languages/' . $domain . '-' . $locale . '.mo';
+	}
+	return $mofile;
+}
+add_filter( 'load_textdomain_mofile', 'larpwright_load_my_own_textdomain', 10, 2 );
+
 //========================= Permalink Notice ===========================//
 // This will notify admins how to best change their permalink options.
 

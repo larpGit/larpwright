@@ -1,3 +1,7 @@
+### 1.0.8
+Summary
+* Minor fix of the code.
+
 ### 1.0.7
 Summary
 * Updated translations to include the permalink admin notice. Added templates for German and Japanese.
