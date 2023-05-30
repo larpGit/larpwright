@@ -866,7 +866,15 @@ msgstr ""
 msgid "Tags"
 msgstr ""
 
-#: larpwright.php:1087
+#: larpwright.php:861
+msgid "Next activity"
+msgstr ""
+
+#: larpwright.php:870
+msgid "Previous activity"
+msgstr ""
+
+#: larpwright.php:1107
 #, php-format
 msgid ""
 "<p><strong>Larpwright Design Tools</strong> recommends changing the "

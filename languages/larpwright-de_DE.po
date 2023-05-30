@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plugin - Larpwright Design Tools (latest release)\n"
 "POT-Creation-Date: 2023-03-31 15:39+0900\n"
-"PO-Revision-Date: 2023-05-30 16:59+0900\n"
+"PO-Revision-Date: 2023-05-30 18:38+0900\n"
 "Last-Translator: Björn-Ole Kamm <translateœb-ok.de>\n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -866,7 +866,15 @@ msgstr "Neues Aktivitätskennwort"
 msgid "Tags"
 msgstr "Kennworte"
 
-#: larpwright.php:1087
+#: larpwright.php:861
+msgid "Next activity"
+msgstr "Nächste Aktivität"
+
+#: larpwright.php:870
+msgid "Previous activity"
+msgstr "Vorherige Aktivität"
+
+#: larpwright.php:1107
 #, php-format
 msgid ""
 "<p><strong>Larpwright Design Tools</strong> recommends changing the permalink structure to <code>%1$s</code> for "
