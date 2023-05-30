@@ -10,11 +10,12 @@ A WordPress plugin for collaborating on larp design.
 <br/><br/>
 
 ## Description
-The Larpwright Design Tools plugin provides four custom post types and related custom taxonomies that may help with designing and planning a [larp](https://nordiclarp.org/wiki/Larp) (live-action role-play):
+The Larpwright Design Tools plugin provides five custom post types and related custom taxonomies that may help with designing and planning a [larp](https://nordiclarp.org/wiki/Larp) (live-action role-play):
 * Character
 * Scene
 * Location
 * Prop
+* Workshop Activity
 
 The focus is on collaboration allowing a team to jointly write characters and plots, comment on each other’s work, and track changes across revisions. The plugin depends on a couple of other plugins to provide its full potential, e.g., for linking connections between characters or adding logos or banners to custom taxonomies like in-game groups.
 
@@ -83,6 +84,11 @@ If your larp works with locations (instead or in addition to scenes), you can de
 Props range from costumes to furniture or (boffer) weapons. They come with the following taxonomies.
 * **Prop Type**: You could order your props along the just mentioned categories of costume and furniture or what else makes sense for your larp. Prop types are hierarchical so that you can have an umbrella term, such as 'costume,' and sub-categories, such as 'pants' or 'gloves.'
 * **Trait**: Traits can be designations of use, for example, if a prop is symbolical, just for decorations, or fulfills a particular function (is linked to some rules).
+
+### Workshop Activities
+During the pre-workshop and debriefing, participants will take part in various activities that either guide them into the larp or out of the experience. This custom post type helps with setting up these activities, so that they can be used across workshops. This post type has the following taxonomies:
+* **Activity Category**: Categories can be used to differentiate between pre-larp and post-larp exercises, or to designate other differentiations, e.g., for safety or about rules.
+* **Activity Tag**: Tags function as quick notes to highlight, what kind of activity it is, e.g., a group activity, a difficult activity, or it's duration.
 
 ### Templates
 For all custom post types, you find a template among the reusable blocks. These are just suggestions for how you can use the plugin. Feel free to create your own templates fitting your larp.

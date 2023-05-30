@@ -1,3 +1,7 @@
+### 1.0.9
+Summary
+* Added the activity post type for workshops, including templates.
+
 ### 1.0.8
 Summary
 * Minor fix of the code.

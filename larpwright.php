@@ -3,7 +3,7 @@
  * Plugin Name: Larpwright Design Tools
  * Plugin URI: https://github.com/larpGit/larpwright
  * Description: The plugin provides several custom post types and further functionality for creating larp scripts in a team.
- * Version: 1.0.8
+ * Version: 1.1.0
  * Author: Björn-Ole Kamm
  * Author URI: https://www.b-ok.de/
  * License: GPLv3 or later
@@ -65,7 +65,7 @@ function character_post_type() {
         'add_new'             => __( 'Add New', 'larpwright' ),
         'edit_item'           => __( 'Edit Character', 'larpwright' ),
         'update_item'         => __( 'Update Character', 'larpwright' ),
-        'search_items'        => __( 'Search Character', 'larpwright' ),
+        'search_items'        => __( 'Search Characters', 'larpwright' ),
         'not_found'           => __( 'Not Found', 'larpwright' ),
         'not_found_in_trash'  => __( 'Not found in Trash', 'larpwright' ),
     );
@@ -318,7 +318,7 @@ function scene_post_type() {
         'add_new'             => __( 'Add New', 'larpwright' ),
         'edit_item'           => __( 'Edit Scene', 'larpwright' ),
         'update_item'         => __( 'Update Scene', 'larpwright' ),
-        'search_items'        => __( 'Search Scene', 'larpwright' ),
+        'search_items'        => __( 'Search Scenes', 'larpwright' ),
         'not_found'           => __( 'Not Found', 'larpwright' ),
         'not_found_in_trash'  => __( 'Not found in Trash', 'larpwright' ),
     );
@@ -471,7 +471,7 @@ function location_post_type() {
         'add_new'             => __( 'Add New', 'larpwright' ),
         'edit_item'           => __( 'Edit Location', 'larpwright' ),
         'update_item'         => __( 'Update Location', 'larpwright' ),
-        'search_items'        => __( 'Search Location', 'larpwright' ),
+        'search_items'        => __( 'Search Locations', 'larpwright' ),
         'not_found'           => __( 'Not Found', 'larpwright' ),
         'not_found_in_trash'  => __( 'Not found in Trash', 'larpwright' ),
     );
@@ -605,7 +605,7 @@ function prop_post_type() {
         'add_new'             => __( 'Add New', 'larpwright' ),
         'edit_item'           => __( 'Edit Prop', 'larpwright' ),
         'update_item'         => __( 'Update Prop', 'larpwright' ),
-        'search_items'        => __( 'Search Prop', 'larpwright' ),
+        'search_items'        => __( 'Search Props', 'larpwright' ),
         'not_found'           => __( 'Not Found', 'larpwright' ),
         'not_found_in_trash'  => __( 'Not found in Trash', 'larpwright' ),
     );
@@ -718,6 +718,141 @@ function trait_taxonomy() {
   ));
 }
 add_action( 'init', 'trait_taxonomy', 0 );
+
+//========================= ACTIVITY CUSTOM POST TYPE ===========================//
+// During the pre-workshop and debriefing, participants will take part in various
+// activities that either guide them into the larp or out of the experience.
+// This custom post type helps with setting up these activities, so that they can
+// be used across workshops.
+
+function activity_post_type() {
+ 
+// Set UI labels for the Activity Post Type
+    $labels = array(
+        'name'                => _x( 'Activities', 'post type general name', 'larpwright' ),
+        'singular_name'       => _x( 'Activity', 'post type singular name', 'larpwright' ),
+        'menu_name'           => __( 'Workshop Activities', 'larpwright' ),
+        'parent_item_colon'   => __( 'Parent Activity', 'larpwright' ),
+        'all_items'           => __( 'All Activities', 'larpwright' ),
+        'view_item'           => __( 'View Activity', 'larpwright' ),
+        'add_new_item'        => __( 'Add New Activity', 'larpwright' ),
+        'add_new'             => __( 'Add New', 'larpwright' ),
+        'edit_item'           => __( 'Edit Activity', 'larpwright' ),
+        'update_item'         => __( 'Update Activity', 'larpwright' ),
+        'search_items'        => __( 'Search Activities', 'larpwright' ),
+        'not_found'           => __( 'Not Found', 'larpwright' ),
+        'not_found_in_trash'  => __( 'Not found in Trash', 'larpwright' ),
+    );
+     
+// Set other options for the Prop Post Type
+     
+    $args = array(
+        'label'               => __( 'activity', 'larpwright' ),
+        'description'         => __( 'Activtities descriptions', 'larpwright' ),
+        'labels'              => $labels,
+        // Features this CPT supports in Post Editor
+        'supports'            => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'trackbacks', 'comments', 'revisions'),
+        // You can associate this CPT with a taxonomy or custom taxonomy. 
+        'taxonomies'          => array( 'activity-category', 'activity-tag'),
+        /* A hierarchical CPT is like Pages and can have
+        * Parent and child items. A non-hierarchical CPT
+        * is like Posts.
+        */ 
+        'hierarchical'        => true,
+        'public'              => true,
+        'show_ui'             => true,
+        'show_in_menu'        => true,
+        'show_in_nav_menus'   => true,
+        'show_in_admin_bar'   => true,
+        'menu_position'       => 20,
+        'menu_icon'           => 'dashicons-buddicons-groups',
+        'can_export'          => true,
+        'has_archive'         => false,
+        'exclude_from_search' => false,
+        'publicly_queryable'  => true,
+        'capability_type'     => 'page',
+        'rewrite'			  => array( 'slug' => 'activities' ),
+        'show_in_rest'		  => true,
+   		'supports' 			  => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'trackbacks', 'comments', 'revisions')
+    );
+     
+    // Registering your Custom Post Type
+    register_post_type( 'activity', $args );
+}
+add_action( 'init', 'activity_post_type', 0 );
+
+//==================== Categories for Workshop Activities ======================//
+// Activity categories can be used to differentiate between pre-larp and post-larp exercises,
+// or to designate other differentiations, e.g., for safety or about rules.
+ 
+function activity_category_taxonomy() {
+ 
+// Labels part for the GUI  
+  $custom_cats = array(
+    'name' => _x( 'Activity Categories', 'taxonomy general name', 'larpwright' ),
+    'singular_name' => _x( 'Activity Category', 'taxonomy singular name', 'larpwright' ),
+    'search_items' =>  __( 'Search Activity Categories', 'larpwright' ),
+    'all_items' => __( 'All Activity Category', 'larpwright' ),
+    'parent_item' => __( 'Parent Activity Category', 'larpwright' ),
+    'parent_item_colon' => __( 'Parent Activity Category:', 'larpwright' ),
+    'edit_item' => __( 'Edit Activity Category', 'larpwright' ), 
+    'update_item' => __( 'Update Activity Category', 'larpwright' ),
+    'add_new_item' => __( 'Add New Activity Category', 'larpwright' ),
+    'new_item_name' => __( 'New Activity Category', 'larpwright' ),
+    'menu_name' => __( 'Categories', 'larpwright' ),
+  );    
+ 
+// Now register the hierarchical taxonomy like category. 
+  register_taxonomy('activity-category',array('activity'), array(
+    'hierarchical' => true,
+    'labels' => $custom_cats,
+    'show_ui' => true,
+    'show_admin_column' => true,
+    'show_in_nav_menus' => true,
+    'show_in_rest'  => true,
+    'query_var' => true,
+    'rewrite' => array( 'slug' => 'activity-category' ),
+  ));
+ 
+}
+add_action( 'init', 'activity_category_taxonomy', 0 );
+
+//========================= Tags for Activities ===========================//
+// Activity tags function as quick notes to highlight, what kind of activity it is,
+// e.g., a group activity, a difficult activity, or it's duration.
+
+function activity_tag_taxonomy() { 
+
+// Labels part for the GUI 
+  $custom_tags = array(
+    'name' => _x( 'Activity Tags', 'taxonomy general name', 'larpwright' ),
+    'singular_name' => _x( 'Activity Tag', 'taxonomy singular name', 'larpwright' ),
+    'search_items' =>  __( 'Search Actitvity Tags', 'larpwright' ),
+    'popular_items' => __( 'Popular Actitvity Tags', 'larpwright' ),
+    'all_items' => __( 'All Actitvity Tags', 'larpwright' ),
+    'parent_item' => null,
+    'parent_item_colon' => null,
+    'edit_item' => __( 'Edit Actitvity Tag', 'larpwright' ), 
+    'update_item' => __( 'Update Actitvity Tag', 'larpwright' ),
+    'add_new_item' => __( 'Add New Actitvity Tag', 'larpwright' ),
+    'new_item_name' => __( 'New Actitvity Tag', 'larpwright' ),
+    'menu_name' => __( 'Tags', 'larpwright' ),
+  );
+ 
+// Now register the non-hierarchical taxonomy like tag.
+  register_taxonomy('activity-tag','activity',array(
+    'hierarchical' => false,
+    'labels' => $custom_tags,
+    'show_ui' => true,
+    'show_admin_column' => true,
+    'show_in_nav_menus' => true,
+    'show_in_rest'  => true,
+    'update_count_callback' => '_update_post_term_count',
+    'query_var' => true,
+    'rewrite' => array( 'slug' => 'activity-tags' ),
+  ));
+}
+add_action( 'init', 'activity_tag_taxonomy', 0 );
 
 //========================= List Sort Order ===========================//
 // Sort the above custom post types in wp_list_table by column in ascending or descending order. */
