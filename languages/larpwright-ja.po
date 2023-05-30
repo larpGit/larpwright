@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plugin - Larpwright Design Tools (latest release)\n"
 "POT-Creation-Date: 2023-03-31 15:39+0900\n"
-"PO-Revision-Date: 2023-05-08 16:00+0900\n"
+"PO-Revision-Date: 2023-05-30 17:14+0900\n"
 "Last-Translator: Björn-Ole Kamm <translateœb-ok.de>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.3.1\n"
 
 #. Description of the plugin
 msgid "The plugin provides several custom post types and further functionality for creating larp scripts in a team."
@@ -62,7 +62,7 @@ msgid "Update Character"
 msgstr "キャラクターを更新"
 
 #: larpwright.php:68
-msgid "Search Character"
+msgid "Search Characters"
 msgstr "キャラクターを検索"
 
 #: larpwright.php:69 larpwright.php:322 larpwright.php:475 larpwright.php:609
@@ -346,7 +346,7 @@ msgid "Update Scene"
 msgstr "シーンを更新"
 
 #: larpwright.php:321
-msgid "Search Scene"
+msgid "Search Scenes"
 msgstr "シーンを検索"
 
 #: larpwright.php:328
@@ -492,7 +492,7 @@ msgid "Update Location"
 msgstr "ロケを更新"
 
 #: larpwright.php:474
-msgid "Search Location"
+msgid "Search Locations"
 msgstr "ロケを検索"
 
 #: larpwright.php:482
@@ -630,7 +630,7 @@ msgid "Update Prop"
 msgstr "支柱を更新"
 
 #: larpwright.php:608
-msgid "Search Prop"
+msgid "Search Props"
 msgstr "支柱を検索"
 
 #: larpwright.php:616
@@ -729,7 +729,145 @@ msgstr "新しい特性"
 msgid "Traits"
 msgstr "特性"
 
-#: larpwright.php:940
+#: larpwright.php:732
+msgctxt "post type general name"
+msgid "Activities"
+msgstr "アクティビティー"
+
+#: larpwright.php:733
+msgctxt "post type singular name"
+msgid "Activity"
+msgstr "アクティビティー"
+
+#: larpwright.php:734
+msgid "Workshop Activities"
+msgstr "ワークショップ・アクティビティー"
+
+#: larpwright.php:735
+msgid "Parent Activity"
+msgstr "上位アクティビティー"
+
+#: larpwright.php:736
+msgid "All Activities"
+msgstr "アクティビティー一覧"
+
+#: larpwright.php:737
+msgid "View Activity"
+msgstr "アクティビティーを表示"
+
+#: larpwright.php:738
+msgid "Add New Activity"
+msgstr "新しいアクティビティーを追加"
+
+#: larpwright.php:740
+msgid "Edit Activity"
+msgstr "アクティビティーを編集"
+
+#: larpwright.php:741
+msgid "Update Activity"
+msgstr "アクティビティーを更新"
+
+#: larpwright.php:742
+msgid "Search Activities"
+msgstr "アクティビティーを検索"
+
+#: larpwright.php:750
+msgid "activity"
+msgstr "activity"
+
+#: larpwright.php:751
+msgid "Activtities descriptions"
+msgstr "アクティビティーの説明"
+
+#: larpwright.php:792
+msgctxt "taxonomy general name"
+msgid "Activity Categories"
+msgstr "アクティビティー・カテゴリー"
+
+#: larpwright.php:793
+msgctxt "taxonomy singular name"
+msgid "Activity Category"
+msgstr "アクティビティー・カテゴリー"
+
+#: larpwright.php:794
+msgid "Search Activity Categories"
+msgstr "アクティビティー・カテゴリーを検索"
+
+#: larpwright.php:795
+msgid "All Activity Category"
+msgstr "アクティビティー・カテゴリー一覧"
+
+#: larpwright.php:796
+msgid "Parent Activity Category"
+msgstr "上位アクティビティー・カテゴリー"
+
+#: larpwright.php:797
+msgid "Parent Activity Category:"
+msgstr "上位アクティビティー・カテゴリー:"
+
+#: larpwright.php:798
+msgid "Edit Activity Category"
+msgstr "アクティビティー・カテゴリーを編集"
+
+#: larpwright.php:799
+msgid "Update Activity Category"
+msgstr "アクティビティー・カテゴリーを更新"
+
+#: larpwright.php:800
+msgid "Add New Activity Category"
+msgstr "新しいアクティビティー・カテゴリーを追加"
+
+#: larpwright.php:801
+msgid "New Activity Category"
+msgstr "新しいアクティビティー・カテゴリー"
+
+#: larpwright.php:802
+msgid "Categories"
+msgstr "カテゴリー"
+
+#: larpwright.php:828
+msgctxt "taxonomy general name"
+msgid "Activity Tags"
+msgstr "アクティビティー・タグ"
+
+#: larpwright.php:829
+msgctxt "taxonomy singular name"
+msgid "Activity Tag"
+msgstr "アクティビティー・タグ"
+
+#: larpwright.php:830
+msgid "Search Actitvity Tags"
+msgstr "アクティビティー・タグを検索"
+
+#: larpwright.php:831
+msgid "Popular Actitvity Tags"
+msgstr "人気のアクティビティー・タグ"
+
+#: larpwright.php:832
+msgid "All Actitvity Tags"
+msgstr "アクティビティー・タグ一覧"
+
+#: larpwright.php:835
+msgid "Edit Actitvity Tag"
+msgstr "アクティビティー・タグを編集"
+
+#: larpwright.php:836
+msgid "Update Actitvity Tag"
+msgstr "アクティビティー・タグを更新"
+
+#: larpwright.php:837
+msgid "Add New Actitvity Tag"
+msgstr "新しいアクティビティー・タグを追加"
+
+#: larpwright.php:838
+msgid "New Actitvity Tag"
+msgstr "新しいアクティビティー・タグ"
+
+#: larpwright.php:839
+msgid "Tags"
+msgstr "タグ"
+
+#: larpwright.php:1087
 #, php-format
 msgid ""
 "<p><strong>Larpwright Design Tools</strong> recommends changing the permalink structure to <code>%1$s</code> for "

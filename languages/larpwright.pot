@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plugin - Larpwright Design Tools (latest release)\n"
 "POT-Creation-Date: 2023-03-31 15:39+0900\n"
-"PO-Revision-Date: 2023-05-08 16:16+0900\n"
+"PO-Revision-Date: 2023-05-30 16:46+0900\n"
 "Last-Translator: Björn-Ole Kamm <translateœb-ok.de>\n"
 "Language-Team: \n"
 "Language: en\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.2.2\n"
+"X-Generator: Poedit 3.3.1\n"
 
 #. Description of the plugin
 msgid "The plugin provides several custom post types and further functionality for creating larp scripts in a team."
@@ -61,7 +61,7 @@ msgid "Update Character"
 msgstr ""
 
 #: larpwright.php:68
-msgid "Search Character"
+msgid "Search Characters"
 msgstr ""
 
 #: larpwright.php:69 larpwright.php:322 larpwright.php:475 larpwright.php:609
@@ -345,7 +345,7 @@ msgid "Update Scene"
 msgstr ""
 
 #: larpwright.php:321
-msgid "Search Scene"
+msgid "Search Scenes"
 msgstr ""
 
 #: larpwright.php:328
@@ -491,7 +491,7 @@ msgid "Update Location"
 msgstr ""
 
 #: larpwright.php:474
-msgid "Search Location"
+msgid "Search Locations"
 msgstr ""
 
 #: larpwright.php:482
@@ -629,7 +629,7 @@ msgid "Update Prop"
 msgstr ""
 
 #: larpwright.php:608
-msgid "Search Prop"
+msgid "Search Props"
 msgstr ""
 
 #: larpwright.php:616
@@ -728,7 +728,145 @@ msgstr ""
 msgid "Traits"
 msgstr ""
 
-#: larpwright.php:940
+#: larpwright.php:732
+msgctxt "post type general name"
+msgid "Activities"
+msgstr ""
+
+#: larpwright.php:733
+msgctxt "post type singular name"
+msgid "Activity"
+msgstr ""
+
+#: larpwright.php:734
+msgid "Workshop Activities"
+msgstr ""
+
+#: larpwright.php:735
+msgid "Parent Activity"
+msgstr ""
+
+#: larpwright.php:736
+msgid "All Activities"
+msgstr ""
+
+#: larpwright.php:737
+msgid "View Activity"
+msgstr ""
+
+#: larpwright.php:738
+msgid "Add New Activity"
+msgstr ""
+
+#: larpwright.php:740
+msgid "Edit Activity"
+msgstr ""
+
+#: larpwright.php:741
+msgid "Update Activity"
+msgstr ""
+
+#: larpwright.php:742
+msgid "Search Activities"
+msgstr ""
+
+#: larpwright.php:750
+msgid "activity"
+msgstr ""
+
+#: larpwright.php:751
+msgid "Activtities descriptions"
+msgstr ""
+
+#: larpwright.php:792
+msgctxt "taxonomy general name"
+msgid "Activity Categories"
+msgstr ""
+
+#: larpwright.php:793
+msgctxt "taxonomy singular name"
+msgid "Activity Category"
+msgstr ""
+
+#: larpwright.php:794
+msgid "Search Activity Categories"
+msgstr ""
+
+#: larpwright.php:795
+msgid "All Activity Category"
+msgstr ""
+
+#: larpwright.php:796
+msgid "Parent Activity Category"
+msgstr ""
+
+#: larpwright.php:797
+msgid "Parent Activity Category:"
+msgstr ""
+
+#: larpwright.php:798
+msgid "Edit Activity Category"
+msgstr ""
+
+#: larpwright.php:799
+msgid "Update Activity Category"
+msgstr ""
+
+#: larpwright.php:800
+msgid "Add New Activity Category"
+msgstr ""
+
+#: larpwright.php:801
+msgid "New Activity Category"
+msgstr ""
+
+#: larpwright.php:802
+msgid "Categories"
+msgstr ""
+
+#: larpwright.php:828
+msgctxt "taxonomy general name"
+msgid "Activity Tags"
+msgstr ""
+
+#: larpwright.php:829
+msgctxt "taxonomy singular name"
+msgid "Activity Tag"
+msgstr ""
+
+#: larpwright.php:830
+msgid "Search Actitvity Tags"
+msgstr ""
+
+#: larpwright.php:831
+msgid "Popular Actitvity Tags"
+msgstr ""
+
+#: larpwright.php:832
+msgid "All Actitvity Tags"
+msgstr ""
+
+#: larpwright.php:835
+msgid "Edit Actitvity Tag"
+msgstr ""
+
+#: larpwright.php:836
+msgid "Update Actitvity Tag"
+msgstr ""
+
+#: larpwright.php:837
+msgid "Add New Actitvity Tag"
+msgstr ""
+
+#: larpwright.php:838
+msgid "New Actitvity Tag"
+msgstr ""
+
+#: larpwright.php:839
+msgid "Tags"
+msgstr ""
+
+#: larpwright.php:1087
 #, php-format
 msgid ""
 "<p><strong>Larpwright Design Tools</strong> recommends changing the "
