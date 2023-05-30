@@ -781,6 +781,7 @@ function activity_post_type() {
 }
 add_action( 'init', 'activity_post_type', 0 );
 
+
 //==================== Categories for Workshop Activities ======================//
 // Activity categories can be used to differentiate between pre-larp and post-larp exercises,
 // or to designate other differentiations, e.g., for safety or about rules.
@@ -853,6 +854,25 @@ function activity_tag_taxonomy() {
   ));
 }
 add_action( 'init', 'activity_tag_taxonomy', 0 );
+
+
+function larpwright_modify_next_activity_link($output, $format, $link, $post) {
+    if ('activity' === $post->post_type) {
+        $next_scene = __('Next activity', 'larpwright');
+        $output = str_replace('Next post', $next_scene, $output);
+    }
+    return $output;
+}
+add_filter('next_post_link', 'larpwright_modify_next_activity_link', 10, 4);
+
+function larpwright_modify_previous_activity_link($output, $format, $link, $post) {
+    if ('activity' === $post->post_type) {
+        $previous_scene = __('Previous activity', 'larpwright');
+        $output = str_replace('Previous post', $previous_scene, $output);
+    }
+    return $output;
+}
+add_filter('previous_post_link', 'larpwright_modify_previous_activity_link', 10, 4);
 
 //========================= List Sort Order ===========================//
 // Sort the above custom post types in wp_list_table by column in ascending or descending order. */
