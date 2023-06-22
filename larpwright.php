@@ -3,7 +3,7 @@
  * Plugin Name: Larpwright Design Tools
  * Plugin URI: https://github.com/larpGit/larpwright
  * Description: The plugin provides several custom post types and further functionality for creating larp scripts in a team.
- * Version: 1.0.9
+ * Version: 1.1.0
  * Author: Björn-Ole Kamm
  * Author URI: https://www.b-ok.de/
  * License: GPLv3 or later
@@ -232,17 +232,17 @@ function group_taxonomy() {
 
 // Labels part for the UI
   $custom_cats = array(
-    'name' => _x( 'In-Game Groups', 'taxonomy general name', 'larpwright' ),
-    'singular_name' => _x( 'In-Game Group', 'taxonomy singular name', 'larpwright' ),
+    'name' => _x( 'Groups', 'taxonomy general name', 'larpwright' ),
+    'singular_name' => _x( 'Group', 'taxonomy singular name', 'larpwright' ),
     'search_items' =>  __( 'Search Groups', 'larpwright' ),
-    'all_items' => __( 'All In-Game Groups', 'larpwright' ),
+    'all_items' => __( 'All Groups', 'larpwright' ),
     'parent_item' => __( 'Parent Group', 'larpwright' ),
     'parent_item_colon' => __( 'Parent Group:', 'larpwright' ),
     'edit_item' => __( 'Edit Group', 'larpwright' ), 
     'update_item' => __( 'Update Group', 'larpwright' ),
     'add_new_item' => __( 'Add New Group', 'larpwright' ),
     'new_item_name' => __( 'New Group Name', 'larpwright' ),
-    'menu_name' => __( 'In-Game Groups', 'larpwright' ),
+    'menu_name' => __( 'Groups', 'larpwright' ),
   );
  
 // Now register the hierarchical taxonomy like a category.
@@ -359,23 +359,23 @@ function scene_post_type() {
 } 
 add_action( 'init', 'scene_post_type', 0 );
 
-function larpwright_modify_next_scene_link($output, $format, $link, $post) {
-    if ('scene' === $post->post_type) {
-        $next_scene = __('Next scene', 'larpwright');
-        $output = str_replace('Next post', $next_scene, $output);
-    }
-    return $output;
-}
-add_filter('next_post_link', 'larpwright_modify_next_scene_link', 10, 4);
 
-function larpwright_modify_previous_scene_link($output, $format, $link, $post) {
+function larpwright_modify_scene_links($translated_text, $text, $domain) {
+    global $post;
     if ('scene' === $post->post_type) {
-        $previous_scene = __('Previous scene', 'larpwright');
-        $output = str_replace('Previous post', $previous_scene, $output);
+        switch($translated_text) {
+            case 'Previous post':
+                $translated_text = __('Previous scene', 'larpwright');
+                break;
+            case 'Next post':
+                $translated_text = __('Next scene', 'larpwright');
+                break;
+        }
     }
-    return $output;
+    return $translated_text;
 }
-add_filter('previous_post_link', 'larpwright_modify_previous_scene_link', 10, 4);
+add_filter('gettext', 'larpwright_modify_scene_links', 20, 3);
+
 
 
 
@@ -856,23 +856,22 @@ function activity_tag_taxonomy() {
 add_action( 'init', 'activity_tag_taxonomy', 0 );
 
 
-function larpwright_modify_next_activity_link($output, $format, $link, $post) {
+function larpwright_modify_activity_links($translated_text, $text, $domain) {
+    global $post;
     if ('activity' === $post->post_type) {
-        $next_scene = __('Next activity', 'larpwright');
-        $output = str_replace('Next post', $next_scene, $output);
+        switch($translated_text) {
+            case 'Previous post':
+                $translated_text = __('Previous activity', 'larpwright');
+                break;
+            case 'Next post':
+                $translated_text = __('Next activity', 'larpwright');
+                break;
+        }
     }
-    return $output;
+    return $translated_text;
 }
-add_filter('next_post_link', 'larpwright_modify_next_activity_link', 10, 4);
+add_filter('gettext', 'larpwright_modify_activity_links', 20, 3);
 
-function larpwright_modify_previous_activity_link($output, $format, $link, $post) {
-    if ('activity' === $post->post_type) {
-        $previous_scene = __('Previous activity', 'larpwright');
-        $output = str_replace('Previous post', $previous_scene, $output);
-    }
-    return $output;
-}
-add_filter('previous_post_link', 'larpwright_modify_previous_activity_link', 10, 4);
 
 //========================= List Sort Order ===========================//
 // Sort the above custom post types in wp_list_table by column in ascending or descending order. */

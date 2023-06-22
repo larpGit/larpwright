@@ -61,7 +61,7 @@ Characters come with five custom taxonomies for grouping them. Use the taxonomie
 * **Character Type**: The plugin installs three suggestions for character types as examples, player characters (PCs), non-player characters (NPCs), and guided player characters (GPCs).
 * **Species**: Depending on your larp's setting, this can be humans, dwarves, or aliens.
 * **Profession**: In a fantasy game, this may be classes like fighter and wizard. In a modern setting, professions can be real-world professions, such as baker or manager.
-* **In-Game Group**: If you design a larp with different groups participants can belong to, use this taxonomy. 
+* **Group**: If you design a larp with different groups participants can belong to (in- or out-of-game), use this taxonomy. 
 * **Attitude**: This taxonomy can be used for things like 'alignments,' ethical outlooks, or motivations, depending on your setup.
 
 Except for 'attitudes,' which function like tags, all other taxonomies function like categories (=hierarchical). This means you can setup sub-species, general and more specialized professions, or sub-groups within an organization. 

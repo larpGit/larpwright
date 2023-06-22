@@ -1,3 +1,7 @@
+### 1.1.0
+Summary
+* Changed "In-Game Groups" to "Groups," so that the taxonomy applies to in-game groups and to out-of-game groups, for example during workshops.
+
 ### 1.0.9
 Summary
 * Added the activity post type for workshops, including templates.
