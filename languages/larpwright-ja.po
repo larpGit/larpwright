@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plugin - Larpwright Design Tools (latest release)\n"
 "POT-Creation-Date: 2023-03-31 15:39+0900\n"
-"PO-Revision-Date: 2023-05-30 18:38+0900\n"
+"PO-Revision-Date: 2023-06-22 16:03+0900\n"
 "Last-Translator: Björn-Ole Kamm <translateœb-ok.de>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -221,12 +221,12 @@ msgstr "専門"
 
 #: larpwright.php:235
 msgctxt "taxonomy general name"
-msgid "In-Game Groups"
+msgid "Groups"
 msgstr "グループ"
 
 #: larpwright.php:236
 msgctxt "taxonomy singular name"
-msgid "In-Game Group"
+msgid "Group"
 msgstr "グループ"
 
 #: larpwright.php:237
@@ -234,7 +234,7 @@ msgid "Search Groups"
 msgstr "グループを検索"
 
 #: larpwright.php:238
-msgid "All In-Game Groups"
+msgid "All Groups"
 msgstr "グループ一覧"
 
 #: larpwright.php:239
@@ -262,7 +262,7 @@ msgid "New Group Name"
 msgstr "新しいグループ名"
 
 #: larpwright.php:245
-msgid "In-Game Groups"
+msgid "Groups"
 msgstr "グループ"
 
 #: larpwright.php:272
@@ -357,13 +357,13 @@ msgstr "scene"
 msgid "Scene descriptions"
 msgstr "シーンの説明"
 
-#: larpwright.php:364
-msgid "Next scene"
-msgstr "次のシーン"
-
-#: larpwright.php:373
+#: larpwright.php:368
 msgid "Previous scene"
 msgstr "前のシーン"
+
+#: larpwright.php:371
+msgid "Next scene"
+msgstr "次のシーン"
 
 #: larpwright.php:389
 msgctxt "taxonomy general name"
@@ -867,15 +867,15 @@ msgstr "新しいアクティビティー・タグ"
 msgid "Tags"
 msgstr "タグ"
 
-#: larpwright.php:861
-msgid "Next activity"
-msgstr "次のアクティビティー"
-
-#: larpwright.php:870
+#: larpwright.php:864
 msgid "Previous activity"
 msgstr "前のアクティビティー"
 
-#: larpwright.php:1107
+#: larpwright.php:867
+msgid "Next activity"
+msgstr "次のアクティビティー"
+
+#: larpwright.php:1106
 #, php-format
 msgid ""
 "<p><strong>Larpwright Design Tools</strong> recommends changing the permalink structure to <code>%1$s</code> for "

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plugin - Larpwright Design Tools (latest release)\n"
 "POT-Creation-Date: 2023-03-31 15:39+0900\n"
-"PO-Revision-Date: 2023-05-30 16:46+0900\n"
+"PO-Revision-Date: 2023-06-22 16:01+0900\n"
 "Last-Translator: Björn-Ole Kamm <translateœb-ok.de>\n"
 "Language-Team: \n"
 "Language: en\n"
@@ -220,12 +220,12 @@ msgstr ""
 
 #: larpwright.php:235
 msgctxt "taxonomy general name"
-msgid "In-Game Groups"
+msgid "Groups"
 msgstr ""
 
 #: larpwright.php:236
 msgctxt "taxonomy singular name"
-msgid "In-Game Group"
+msgid "Group"
 msgstr ""
 
 #: larpwright.php:237
@@ -233,7 +233,7 @@ msgid "Search Groups"
 msgstr ""
 
 #: larpwright.php:238
-msgid "All In-Game Groups"
+msgid "All Groups"
 msgstr ""
 
 #: larpwright.php:239
@@ -261,7 +261,7 @@ msgid "New Group Name"
 msgstr ""
 
 #: larpwright.php:245
-msgid "In-Game Groups"
+msgid "Groups"
 msgstr ""
 
 #: larpwright.php:272
@@ -356,12 +356,12 @@ msgstr ""
 msgid "Scene descriptions"
 msgstr ""
 
-#: larpwright.php:364
-msgid "Next scene"
+#: larpwright.php:368
+msgid "Previous scene"
 msgstr ""
 
-#: larpwright.php:373
-msgid "Previous scene"
+#: larpwright.php:371
+msgid "Next scene"
 msgstr ""
 
 #: larpwright.php:389
@@ -866,15 +866,15 @@ msgstr ""
 msgid "Tags"
 msgstr ""
 
-#: larpwright.php:861
-msgid "Next activity"
-msgstr ""
-
-#: larpwright.php:870
+#: larpwright.php:864
 msgid "Previous activity"
 msgstr ""
 
-#: larpwright.php:1107
+#: larpwright.php:867
+msgid "Next activity"
+msgstr ""
+
+#: larpwright.php:1106
 #, php-format
 msgid ""
 "<p><strong>Larpwright Design Tools</strong> recommends changing the "
