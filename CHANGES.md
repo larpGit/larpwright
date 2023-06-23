@@ -1,3 +1,7 @@
+### 1.1.1
+Summary
+* Fixed an error where custom navigations for scene and activity post types did not work for other languages except English.
+
 ### 1.1.0
 Summary
 * Changed "In-Game Groups" to "Groups," so that the taxonomy applies to in-game groups and to out-of-game groups, for example during workshops.
