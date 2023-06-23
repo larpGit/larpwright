@@ -3,7 +3,7 @@
  * Plugin Name: Larpwright Design Tools
  * Plugin URI: https://github.com/larpGit/larpwright
  * Description: The plugin provides several custom post types and further functionality for creating larp scripts in a team.
- * Version: 1.1.0
+ * Version: 1.1.1
  * Author: Björn-Ole Kamm
  * Author URI: https://www.b-ok.de/
  * License: GPLv3 or later
@@ -89,7 +89,7 @@ function character_post_type() {
         'show_in_menu'        => true,
         'show_in_nav_menus'   => true,
         'show_in_admin_bar'   => true,
-        'menu_position'       => 20,
+        'menu_position'       => 26,
         'menu_icon'           => 'dashicons-id',
         'can_export'          => true,
         'has_archive'         => false,
@@ -342,7 +342,7 @@ function scene_post_type() {
         'show_in_menu'        => true,
         'show_in_nav_menus'   => true,
         'show_in_admin_bar'   => true,
-        'menu_position'       => 20,
+        'menu_position'       => 27,
         'menu_icon'           => 'dashicons-tickets-alt',
         'can_export'          => true,
         'has_archive'         => false,
@@ -363,7 +363,7 @@ add_action( 'init', 'scene_post_type', 0 );
 function larpwright_modify_scene_links($translated_text, $text, $domain) {
     global $post;
     if ('scene' === $post->post_type) {
-        switch($translated_text) {
+        switch($text) { 
             case 'Previous post':
                 $translated_text = __('Previous scene', 'larpwright');
                 break;
@@ -496,7 +496,7 @@ function location_post_type() {
         'show_in_menu'        => true,
         'show_in_nav_menus'   => true,
         'show_in_admin_bar'   => true,
-        'menu_position'       => 20,
+        'menu_position'       => 28,
         'menu_icon'           => 'dashicons-location',
         'can_export'          => true,
         'has_archive'         => false,
@@ -630,7 +630,7 @@ function prop_post_type() {
         'show_in_menu'        => true,
         'show_in_nav_menus'   => true,
         'show_in_admin_bar'   => true,
-        'menu_position'       => 20,
+        'menu_position'       => 29,
         'menu_icon'           => 'dashicons-carrot',
         'can_export'          => true,
         'has_archive'         => false,
@@ -764,7 +764,7 @@ function activity_post_type() {
         'show_in_menu'        => true,
         'show_in_nav_menus'   => true,
         'show_in_admin_bar'   => true,
-        'menu_position'       => 20,
+        'menu_position'       => 30,
         'menu_icon'           => 'dashicons-buddicons-groups',
         'can_export'          => true,
         'has_archive'         => false,
@@ -859,7 +859,7 @@ add_action( 'init', 'activity_tag_taxonomy', 0 );
 function larpwright_modify_activity_links($translated_text, $text, $domain) {
     global $post;
     if ('activity' === $post->post_type) {
-        switch($translated_text) {
+        switch($text) { 
             case 'Previous post':
                 $translated_text = __('Previous activity', 'larpwright');
                 break;
