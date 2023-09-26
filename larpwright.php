@@ -3,7 +3,7 @@
  * Plugin Name: Larpwright Design Tools
  * Plugin URI: https://github.com/larpGit/larpwright
  * Description: The plugin provides several custom post types and further functionality for creating larp scripts in a team.
- * Version: 1.1.1
+ * Version: 1.1.2
  * Author: Björn-Ole Kamm
  * Author URI: https://www.b-ok.de/
  * License: GPLv3 or later
@@ -108,9 +108,9 @@ add_action( 'init', 'character_post_type', 0 );
 
 // Remove "Next" and "Previous" navigation (characters are non-hierarchical but there should be no navigation)
 function larpwright_modify_adjacent_links($output, $format, $link, $post) {
-    if ('character' === $post->post_type) {
+    if (is_object($post) && isset($post->post_type) && 'character' === $post->post_type) {
         return '';
-    } elseif ('scene' === $post->post_type) {
+    } elseif (is_object($post) && isset($post->post_type) && 'scene' === $post->post_type) {
         $format = str_replace('%title', __('%title', 'larpwright'), $format);
     }
     return $output;
@@ -362,7 +362,7 @@ add_action( 'init', 'scene_post_type', 0 );
 
 function larpwright_modify_scene_links($translated_text, $text, $domain) {
     global $post;
-    if ('scene' === $post->post_type) {
+    if (is_object($post) && isset($post->post_type) && 'scene' === $post->post_type) {
         switch($text) { 
             case 'Previous post':
                 $translated_text = __('Previous scene', 'larpwright');
@@ -858,7 +858,7 @@ add_action( 'init', 'activity_tag_taxonomy', 0 );
 
 function larpwright_modify_activity_links($translated_text, $text, $domain) {
     global $post;
-    if ('activity' === $post->post_type) {
+    if (is_object($post) && isset($post->post_type) && 'activity' === $post->post_type) {
         switch($text) { 
             case 'Previous post':
                 $translated_text = __('Previous activity', 'larpwright');
