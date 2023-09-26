@@ -1,3 +1,7 @@
+### 1.1.2
+Summary
+* Fixed an error in the scene and activity navigation caused by PHP8.0.
+
 ### 1.1.1
 Summary
 * Fixed an error where custom navigations for scene and activity post types did not work for other languages except English.
