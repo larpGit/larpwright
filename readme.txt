@@ -18,4 +18,4 @@ The Larpwright Design Tools plugin provides five custom post types and related c
 
 The focus is on collaboration allowing a team to jointly write characters and plots, comment on each other’s work, and track changes across revisions. The plugin depends on a couple of other plugins to provide its full potential, e.g., for linking connections between characters or adding logos or banners to custom taxonomies like in-game groups.
 
-Please see the demo on [Larpwright Online](https://www.larpwright.online).
+Please see the demo on [Larpwright Online](https://www.larpwright.eu).
