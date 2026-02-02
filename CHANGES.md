@@ -1,3 +1,7 @@
+### 1.1.3
+Summary
+* Adjusted information to new domain larpwright.eu.
+
 ### 1.1.2
 Summary
 * Fixed an error in the scene and activity navigation caused by PHP8.0.
