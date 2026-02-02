@@ -3,7 +3,7 @@
  * Plugin Name: Larpwright Design Tools
  * Plugin URI: https://github.com/larpGit/larpwright
  * Description: The plugin provides several custom post types and further functionality for creating larp scripts in a team.
- * Version: 1.1.2
+ * Version: 1.1.3
  * Author: Björn-Ole Kamm
  * Author URI: https://www.b-ok.de/
  * License: GPLv3 or later
@@ -17,7 +17,7 @@
  */
  
 /*
-	Copyright 2023, Björn-Ole Kamm
+	Copyright 2023-26, Björn-Ole Kamm
 
 	The statement below within this comment block is relevant to
 	this file as well as to all files in this folder and to all files
@@ -1140,3 +1140,4 @@ function larpwright_enqueue_print_styles() {
 }
 
 add_action('wp_enqueue_scripts', 'larpwright_enqueue_print_styles');
+
