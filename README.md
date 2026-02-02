@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://www.larpwright.online/assets/ldt_logo_wh.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://www.larpwright.online/assets/ldt_logo_bl.png">
-  <img align="right" alt="Larpwright Logo." src="https://www.larpwright.online/assets/ldt_logo_bl.png">
+  <source media="(prefers-color-scheme: dark)" srcset="https://www.larpwright.eu/assets/ldt_logo_wh.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://www.larpwright.eu/assets/ldt_logo_bl.png">
+  <img align="right" alt="Larpwright Logo." src="https://www.larpwright.online/eu/ldt_logo_bl.png">
 </picture>
 
 # Larpwright Design Tools
@@ -19,7 +19,7 @@ The Larpwright Design Tools plugin provides five custom post types and related c
 
 The focus is on collaboration allowing a team to jointly write characters and plots, comment on each other’s work, and track changes across revisions. The plugin depends on a couple of other plugins to provide its full potential, e.g., for linking connections between characters or adding logos or banners to custom taxonomies like in-game groups.
 
-Please see the demo on [Larpwright Online](https://www.larpwright.online).
+Please see the demo on [Larpwright Online](https://www.larpwright.eu).
 
 ## Installation
 1. Clone this GitHub repository locally or download a zip of the [latest release](https://github.com/larpGit/larpwright/releases/latest).
@@ -48,7 +48,7 @@ Even if you do not change the structure, go to this setting once and click 'Save
 For each custom post type, the plugin provides a 'reusable block' template. For example, to create a new player character, choose 'Characters > Add New' and then select the 'PC' reusable block. At the top below 'Profile', you will see 'No categories' and 'No tags.' This is due to the respective taxonomies not being set yet. Make sure to convert the imported blocks to regular blocks (via the three ... menu). If you start editing before converting, the template will be changed not just the character you are working on. Now you can fill in the placeholders, choose relevant taxonomies, and add a featured image to your character (or location, or scene, or prop).
 
 **Screenshot**
-![Screenshot of how to use templates.](https://www.larpwright.online/assets/using_templates.png)
+![Screenshot of how to use templates.](https://www.larpwright.eu/assets/using_templates.png)
 
 Once finished, publish the character like you would do with a regular post.
 
@@ -98,7 +98,7 @@ The auto-loaded templates are in English. You can find German and Japanese templ
 The plugin provides print CSS settings so that you can just print the finished characters, scenes, locations, and props to be handed to players and game masters/assisting staff.
 
 ## Further Larp Settings
-There are, of course, other aspects of a larp necessitating design, such as the overall world setting and game mechanics like rules or meta techniques. For this purpose, we suggest using the standard pages coming with WordPress. See the demo on [www.larpwright.online](https://www.larpwright.online) for suggestions.
+There are, of course, other aspects of a larp necessitating design, such as the overall world setting and game mechanics like rules or meta techniques. For this purpose, we suggest using the standard pages coming with WordPress. See the demo on [www.larpwright.eu](https://www.larpwright.eu) for suggestions.
 
 In general, using WordPress this way helps in collaborating because any team member can access the texts from anywhere they are, for all items WordPress provides versioning, so that one can go back after a changes, and comments help in explaining changes etc.
 
